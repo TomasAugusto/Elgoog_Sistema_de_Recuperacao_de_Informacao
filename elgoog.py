@@ -38,6 +38,7 @@ def processar_arquivo_html(arquivo):
         
         documentos[nome_arquivo] = texto_normalizado
 
+
 # Criação do índice invertido a partir dos documentos
 for raiz, subpastas, arquivos in os.walk(diretorio):
     for arquivo in arquivos:
