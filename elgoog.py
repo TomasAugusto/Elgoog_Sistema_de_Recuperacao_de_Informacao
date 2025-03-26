@@ -9,7 +9,8 @@ import tkinter as tk
 from tkinter import PhotoImage
 
 # Diretório onde os arquivos HTML estão localizados
-diretorio = 'CRPC sub-corpus oral espontÉneo'
+#diretorio = 'CRPC sub-corpus oral espontÉneo'
+diretorio = 'docs'
 
 # Lista para armazenar os documentos em texto
 documentos = {}
