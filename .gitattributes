@@ -1,5 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.html linguist-detectable=false
-*.py linguist-vendored=false
+# Trata TODOS os arquivos HTML como documentação (não conta para linguagem principal)
+*.html linguist-documentation=true
 
+# Força Python como linguagem principal (opcional)
+*.py linguist-detectable=true
