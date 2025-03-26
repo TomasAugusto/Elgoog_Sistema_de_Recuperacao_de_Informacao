@@ -1,2 +1,5 @@
-*.py linguist-language=Python
-*.html linguist-documentation
+# Trata TODOS os arquivos HTML como documentação (não conta para linguagem principal)
+*.html linguist-documentation=true
+
+# Força Python como linguagem principal (opcional)
+*.py linguist-detectable=true
